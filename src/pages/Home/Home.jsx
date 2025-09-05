@@ -22,15 +22,15 @@ export function Home() {
             <button className="about-btn">Batafsil</button>
           </Link>
         </div>
-        <img src="/src/assets/main.png" alt="" width="500px" />
+        <img src="/assets/main.png" alt="" width="500px" />
       </div>
-      <InfinityText/>
+      <InfinityText />
       <About />
-      <InfinityText/>
+      <InfinityText />
       <Servise />
-      <InfinityText/>
+      <InfinityText />
       <Portifolio />
-      <InfinityText/>
+      <InfinityText />
       <Contact />
     </div>
   );

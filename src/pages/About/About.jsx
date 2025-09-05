@@ -5,7 +5,7 @@ export const About = () => {
     <div className="about-wrapper">
       <div className="about-container">
         <img
-          src="/src/assets/main.png"
+          src="/assets/main.png"
           alt=""
           width={"500px"}
           className="img-about"
@@ -21,8 +21,8 @@ export const About = () => {
           IT kompaniyasi O'zbekistondagi yirik IT Kompaniyalaridan biri
           hisoblanadi! FINEROX kompaniyasi 2023-yil 1-dekabr kuni tashkil topgan
           va hozirgacha faoliyat yuritadi bizning jamoa 2 kishidan boshlanib
-          hozirgi kunda 25 kishilik professional jamoaga aylandi va biz xizmatlarimiz
-          va muddatga kafolat beramiz!{" "}
+          hozirgi kunda 25 kishilik professional jamoaga aylandi va biz
+          xizmatlarimiz va muddatga kafolat beramiz!{" "}
         </p>
       </div>
     </div>

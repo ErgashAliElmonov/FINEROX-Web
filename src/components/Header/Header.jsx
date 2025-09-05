@@ -7,7 +7,7 @@ function Header() {
       <div className="header-box">
         <nav className="navbar">
           <Link to="/">
-            <img src="/src/assets/logo.png" alt="" height={"60"}/>
+            <img src="/assets/logo.png" alt="" height={"60"} />
           </Link>
           <ul>
             <li>
