@@ -1,0 +1,35 @@
+.header-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.header-box {
+  max-width: 1110px;
+  width: 100%;
+  padding: 28px 95px;
+  border-radius: 0px 0px 20px 20px;
+
+  background-color: #1b1b1b;
+  display: flex;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 125px;
+  width: 100%;
+  color: white;
+}
+
+.navbar > ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  width: 80%;
+}
+
+.active-link {
+  color: #3fa3dd;
+}

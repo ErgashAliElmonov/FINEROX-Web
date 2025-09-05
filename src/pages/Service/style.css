@@ -1,0 +1,17 @@
+.sercise-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px 0px;
+  color: white;
+  gap: 20px;
+}
+
+.servise-box {
+  max-width: 1110px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}

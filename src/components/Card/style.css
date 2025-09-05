@@ -1,0 +1,15 @@
+.card {
+  width: 300px;
+  background-color: #1b1b1b;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.card div {
+  border-top: 1px solid grey;
+  padding: 16px;
+}
+
+img {
+  object-fit: cover;
+}

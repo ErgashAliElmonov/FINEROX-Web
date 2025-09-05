@@ -1,0 +1,38 @@
+.infinity-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  background: transparent;
+  height: 80px; /* balandlikni moslashingiz mumkin */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  box-shadow: 2px 0px 10px white;
+}
+
+.infinity-track {
+  display: flex;
+  gap: 60px;
+  white-space: nowrap;
+  animation: slide 12s linear infinite;
+}
+
+.infinity-track span {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #3fa3dd;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+/* animatsiya */
+@keyframes slide {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
